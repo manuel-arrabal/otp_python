@@ -1,7 +1,7 @@
 import sys
 
 ##### FUNCTIONS #####
-# Convert a sting into a list removing empty spaces
+# Convert a sting into a list removing empty spaces.
 def string_2_list(string):
   string_list = list(string.replace(" ", ""))
   return string_list
